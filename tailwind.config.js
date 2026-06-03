@@ -11,22 +11,16 @@ export default {
         sans: ['Segoe UI', 'ui-sans-serif', 'sans-serif'],
       },
       colors: {
-        amber: {
-          50: '#fffbf0',
-          100: '#fef3e2',
-          200: '#fce7c6',
-          300: '#f9d5a0',
-          400: '#f5be7e',
-          500: '#f4a261',
-          600: '#e88b47',
-          700: '#d66d3b',
-          800: '#b85c35',
-          900: '#9e4e30',
+        navy: {
+          50:  '#f0f4fb',
+          100: '#dce6f5',
+          200: '#b8cceb',
+          500: '#3b6cb4',
+          600: '#2a5298',
+          700: '#1a3a6e',
+          800: '#112b56',
+          900: '#0b1e3e',
         },
-        slate: {
-          50: '#f8fafc',
-          900: '#0f172a',
-        }
       }
     },
   },
