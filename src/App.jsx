@@ -21,6 +21,7 @@ import LedgerRequirements from './components/pages/taikei/LedgerRequirements';
 // 帳簿編
 import HowToWrite from './components/pages/chobo/HowToWrite';
 import Template from './components/pages/chobo/Template';
+import TemplateDownload from './components/pages/chobo/TemplateDownload';
 import MethodComparison from './components/pages/chobo/MethodComparison';
 import WhatIsLedger from './components/pages/chobo/WhatIsLedger';
 import ObligationMatrix from './components/pages/chobo/ObligationMatrix';
@@ -66,6 +67,7 @@ export default function App() {
         {/* 帳簿編 */}
         <Route path="/chobo/how-to-write" element={<HowToWrite />} />
         <Route path="/chobo/template" element={<Template />} />
+        <Route path="/chobo/template-download" element={<TemplateDownload />} />
         <Route path="/chobo/method-comparison" element={<MethodComparison />} />
         <Route path="/chobo/obligation-matrix" element={<ObligationMatrix />} />
         <Route path="/chobo/what-is-ledger" element={<WhatIsLedger />} />

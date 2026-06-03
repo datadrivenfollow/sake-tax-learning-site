@@ -25,6 +25,7 @@ export const sectionNav = {
     links: [
       { href: '/chobo/how-to-write', label: '書き方ガイド（記入例付き）' },
       { href: '/chobo/template', label: 'テンプレートの作り方' },
+      { href: '/chobo/template-download', label: 'テンプレート無料ダウンロード' },
       { href: '/chobo/method-comparison', label: '紙・Excel・アプリ比較' },
       { href: '/chobo/obligation-matrix', label: '業種別 義務マトリクス' },
       { href: '/chobo/what-is-ledger', label: '酒類受払帳とは' },

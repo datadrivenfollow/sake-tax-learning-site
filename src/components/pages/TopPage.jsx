@@ -47,10 +47,11 @@ const catalog = [
     tagBg: 'bg-teal-50 text-teal-700 border-teal-200',
     icon: FileText,
     description: '実務に直結する帳簿の作り方・管理方法を詳しく解説。',
-    count: 7,
+    count: 8,
     pages: [
       { href: '/chobo/how-to-write', title: '酒類受払帳の書き方（記入例付き）', desc: '仕入れ・払い出しの記入ステップと品目別チートシート' },
       { href: '/chobo/template', title: 'テンプレートの作り方', desc: 'Excel・手書き帳簿の列構成・設定方法を解説' },
+      { href: '/chobo/template-download', title: 'テンプレート無料ダウンロード', desc: '即使用可能なExcelテンプレート。メアド登録で配布' },
       { href: '/chobo/method-comparison', title: '紙・Excel・アプリ比較', desc: '費用・手間・リスクで管理方法を比較。移行タイミングの判断基準' },
       { href: '/chobo/obligation-matrix', title: '業種別 義務マトリクス', desc: '製造者・卸売・小売・飲食店ごとに作成・保存すべき書類を一覧化' },
       { href: '/chobo/what-is-ledger', title: '酒類受払帳とは', desc: '法的根拠・酒税帳簿との違い・業種別の義務範囲' },
